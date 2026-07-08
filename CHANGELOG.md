@@ -2,10 +2,11 @@
 
 ## Sprint 262.132 — July 2026
 
-### Features (2)
+### Features (3)
 
 - Context window and tokens display for Claude models ([AIR-5487](https://youtrack.jetbrains.com/issue/AIR-5487))
 - Fast Mode support for Claude Opus via Anthropic API Billing ([AIR-4630](https://youtrack.jetbrains.com/issue/AIR-4630))
+- Support Claude xhigh effort level (Fable, Opus, Sonnet 5) ([AIR-6205](https://youtrack.jetbrains.com/issue/AIR-6205)) ✨
 
 ### Improvements (5)
 
@@ -13,9 +14,9 @@
 - Codex agent mode now shows generated code output ([AIR-5287](https://youtrack.jetbrains.com/issue/AIR-5287))
 - Fast Mode no longer locks when a Codex chat session starts ([AIR-5613](https://youtrack.jetbrains.com/issue/AIR-5613))
 - `acp.json` shown as non-existing and empty file on first open ([AIR-6124](https://youtrack.jetbrains.com/issue/AIR-6124))
-- Open in Web context actions added for Cloud tasks ([AIR-6080](https://youtrack.jetbrains.com/issue/AIR-6080)) ✨
+- Open in Web context actions added for Cloud tasks ([AIR-6080](https://youtrack.jetbrains.com/issue/AIR-6080))
 
-### Fixes (28)
+### Fixes (29)
 
 - Air can't open chat and tasks panel on Windows ([AIR-5761](https://youtrack.jetbrains.com/issue/AIR-5761))
 - [Windows] Drag and Drop not supported ([AIR-5138](https://youtrack.jetbrains.com/issue/AIR-5138))
@@ -44,7 +45,8 @@
 - Chat banners did not span the full panel width ([AIR-5530](https://youtrack.jetbrains.com/issue/AIR-5530))
 - Fixed git status normalization worker ([AIR-5709](https://youtrack.jetbrains.com/issue/AIR-5709))
 - Crash (IndexOutOfBoundsException) when typing in "Add To Task Context" menu ([AIR-6121](https://youtrack.jetbrains.com/issue/AIR-6121))
-- Claude is not aware of skills in `.agents/skills` ([AIR-6141](https://youtrack.jetbrains.com/issue/AIR-6141)) ✨
+- Claude is not aware of skills in `.agents/skills` ([AIR-6141](https://youtrack.jetbrains.com/issue/AIR-6141))
+- Can't stop a task — agent does nothing and stop button does not work ([AIR-5715](https://youtrack.jetbrains.com/issue/AIR-5715)) ✨
 
 ---
 
