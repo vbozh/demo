@@ -1,0 +1,160 @@
+# Changelog
+
+## Sprint Next — July–August 2026
+
+*57 completed items (4 features, 5 improvements, 48 fixes) sourced from YouTrack AIR project, Fix Version: Next, as of 2026-08-04.*
+
+### Features (4)
+
+- Collect Junie logs with Air logs ([AIR-6625](https://youtrack.jetbrains.com/issue/AIR-6625))
+- Java LSP backed by IntelliJ ([AIR-5635](https://youtrack.jetbrains.com/issue/AIR-5635))
+- Use a single click to navigate between files in Diff Tool ([AIR-6193](https://youtrack.jetbrains.com/issue/AIR-6193))
+- Windows: IME (input method editor) support added ([AIR-4518](https://youtrack.jetbrains.com/issue/AIR-4518))
+
+### Improvements (5)
+
+- Implement updated Agent Review action ([AIR-5889](https://youtrack.jetbrains.com/issue/AIR-5889))
+- Better discoverability of available quota information ([AIR-4593](https://youtrack.jetbrains.com/issue/AIR-4593))
+- Do not block branch switching until a task is started ([AIR-6347](https://youtrack.jetbrains.com/issue/AIR-6347))
+- Scope Review Comments to AI Tasks ([AIR-6032](https://youtrack.jetbrains.com/issue/AIR-6032))
+- Investigated and resolved repeated task failure pattern ([AIR-4719](https://youtrack.jetbrains.com/issue/AIR-4719))
+
+### Fixes (48)
+
+- Air desktop — tasks hang ([AIR-5582](https://youtrack.jetbrains.com/issue/AIR-5582))
+- "No Git repository found" banner flashes when a worktree task opens ([AIR-6516](https://youtrack.jetbrains.com/issue/AIR-6516))
+- Agent not responding to prompts ([AIR-6158](https://youtrack.jetbrains.com/issue/AIR-6158))
+- Air asks for permission to use tools while in Plan mode ([AIR-6067](https://youtrack.jetbrains.com/issue/AIR-6067))
+- Air hangs at Unity-MCP command ([AIR-6222](https://youtrack.jetbrains.com/issue/AIR-6222))
+- Air prompts to "Initialize CLAUDE.md" for directory where CLAUDE.local.md is available ([AIR-5828](https://youtrack.jetbrains.com/issue/AIR-5828))
+- Air should not apply hard execution timeouts to user permission prompts ([AIR-5466](https://youtrack.jetbrains.com/issue/AIR-5466))
+- All tasks hang forever (tested with Codex) ([AIR-5736](https://youtrack.jetbrains.com/issue/AIR-5736))
+- All task roots are displayed for each workspace in workspaces list ([AIR-5720](https://youtrack.jetbrains.com/issue/AIR-5720))
+- Application crash with full black screen when switching branches in terminal ([AIR-6298](https://youtrack.jetbrains.com/issue/AIR-6298))
+- Changes Tool 'Current Task' file set does not update on task switch within the same session ([AIR-6401](https://youtrack.jetbrains.com/issue/AIR-6401))
+- Claude output missing ([AIR-5901](https://youtrack.jetbrains.com/issue/AIR-5901))
+- Claude.md init during mid-task made output render stuck ([AIR-6419](https://youtrack.jetbrains.com/issue/AIR-6419))
+- Cloud tasks stay "Initializing…" and misrendered until the first bulk session fetch ([AIR-6517](https://youtrack.jetbrains.com/issue/AIR-6517))
+- Code generated only appears a few times ([AIR-6256](https://youtrack.jetbrains.com/issue/AIR-6256))
+- Codex app stuck on stop action due to AskUserTool rendering issue and MCP event handling ([AIR-6549](https://youtrack.jetbrains.com/issue/AIR-6549))
+- Codex repeatedly asks for permission to call MCP tools despite full auto mode enabled ([AIR-6458](https://youtrack.jetbrains.com/issue/AIR-6458))
+- Codex seems "stuck" without any visual feedback ([AIR-6073](https://youtrack.jetbrains.com/issue/AIR-6073))
+- Content doesn't redraw on Windows ([AIR-6366](https://youtrack.jetbrains.com/issue/AIR-6366))
+- Diff view shows 'Diff is not renderable' ([AIR-6391](https://youtrack.jetbrains.com/issue/AIR-6391))
+- Fix gutter widgets for added/deleted lines in chat code snippets ([AIR-6202](https://youtrack.jetbrains.com/issue/AIR-6202))
+- Full task name on the main toolbar is shown after hover only ([AIR-6246](https://youtrack.jetbrains.com/issue/AIR-6246))
+- Input box becomes unresponsive and input is delayed until thread switch ([AIR-6012](https://youtrack.jetbrains.com/issue/AIR-6012))
+- Left part of deleted lines in the snippet is stripped ([AIR-6364](https://youtrack.jetbrains.com/issue/AIR-6364))
+- License selector feature ([AIR-4185](https://youtrack.jetbrains.com/issue/AIR-4185))
+- Mentions in tables cause exceptions ([AIR-6627](https://youtrack.jetbrains.com/issue/AIR-6627))
+- Mentions menu shows items from all shared workspace roots, not from the one selected ([AIR-6152](https://youtrack.jetbrains.com/issue/AIR-6152))
+- No response is shown ([AIR-6345](https://youtrack.jetbrains.com/issue/AIR-6345))
+- Paste code as text to manual code snippet if it is already created and the cursor is inside ([AIR-5790](https://youtrack.jetbrains.com/issue/AIR-5790))
+- Problems with OpenCode ACP communication ([AIR-6566](https://youtrack.jetbrains.com/issue/AIR-6566))
+- Pull and Push buttons are disabled in Air Desktop for nested repositories ([AIR-6316](https://youtrack.jetbrains.com/issue/AIR-6316))
+- Purple screen on Diff view ([AIR-6265](https://youtrack.jetbrains.com/issue/AIR-6265))
+- Removing a folder from the multi-project view shows wrong state with "Chat" instead of workspace ([AIR-6508](https://youtrack.jetbrains.com/issue/AIR-6508))
+- Repository opened in a new window after using Clone from Git main menu ([AIR-6475](https://youtrack.jetbrains.com/issue/AIR-6475))
+- Review stat isn't calculated for repos with no commits ([AIR-6304](https://youtrack.jetbrains.com/issue/AIR-6304))
+- Sending is blocked with "Initializing…" for up to a minute after startup ([AIR-6514](https://youtrack.jetbrains.com/issue/AIR-6514))
+- Show native permission options for ACP agents ([AIR-6212](https://youtrack.jetbrains.com/issue/AIR-6212))
+- Syntax highlighting is lost for deleted lines in chat code snippets ([AIR-6201](https://youtrack.jetbrains.com/issue/AIR-6201))
+- Take into account the selected root on Temp file creation ([AIR-6616](https://youtrack.jetbrains.com/issue/AIR-6616))
+- Task is stuck at waiting for user input ([AIR-6284](https://youtrack.jetbrains.com/issue/AIR-6284))
+- Task list becomes empty when you run or switch to docker/worktree task ([AIR-6156](https://youtrack.jetbrains.com/issue/AIR-6156))
+- Task stuck in "waiting for user input" with no prompt shown ([AIR-6547](https://youtrack.jetbrains.com/issue/AIR-6547))
+- Temp files are not restored on Air restart ([AIR-5797](https://youtrack.jetbrains.com/issue/AIR-5797))
+- The wrong git branch was selected for a cloud task ([AIR-6209](https://youtrack.jetbrains.com/issue/AIR-6209))
+- Update quota usage widget on Settings popup opening and every minute in the background ([AIR-6392](https://youtrack.jetbrains.com/issue/AIR-6392))
+- Use red color for Junie > Full Access permission mode ([AIR-6435](https://youtrack.jetbrains.com/issue/AIR-6435))
+- cline CLI does not work, says cline requires re-authentication while being authenticated ([AIR-6176](https://youtrack.jetbrains.com/issue/AIR-6176))
+- Cannot build presentation for action Toggle Tasks Panel (NoSuchElementException) ([AIR-6123](https://youtrack.jetbrains.com/issue/AIR-6123))
+
+---
+
+## Sprint 262.132 — July 2026
+
+### Features (3)
+
+- Context window and tokens display for Claude models ([AIR-5487](https://youtrack.jetbrains.com/issue/AIR-5487))
+- Fast Mode support for Claude Opus via Anthropic API Billing ([AIR-4630](https://youtrack.jetbrains.com/issue/AIR-4630))
+- Support Claude xhigh effort level (Fable, Opus, Sonnet 5) ([AIR-6205](https://youtrack.jetbrains.com/issue/AIR-6205))
+
+### Improvements (6)
+
+- UX for preventing machine from sleeping during active tasks ([AIR-5191](https://youtrack.jetbrains.com/issue/AIR-5191))
+- Codex agent mode now shows generated code output ([AIR-5287](https://youtrack.jetbrains.com/issue/AIR-5287))
+- Fast Mode no longer locks when a Codex chat session starts ([AIR-5613](https://youtrack.jetbrains.com/issue/AIR-5613))
+- `acp.json` shown as non-existing and empty file on first open ([AIR-6124](https://youtrack.jetbrains.com/issue/AIR-6124))
+- Open in Web context actions added for Cloud tasks ([AIR-6080](https://youtrack.jetbrains.com/issue/AIR-6080))
+- Chat file mentions show stale change count when file has no pending changes ([AIR-6160](https://youtrack.jetbrains.com/issue/AIR-6160))
+
+### Fixes (33)
+
+- Resume for worktree tasks does not work — task disappears from list after resume attempt ([AIR-6250](https://youtrack.jetbrains.com/issue/AIR-6250))
+- OpenCode via acp.json does not answer ([AIR-6226](https://youtrack.jetbrains.com/issue/AIR-6226))
+- [Windows] Opening file from Explorer shows "Air Cannot Start: application_stop_event_loop already in progress" ([AIR-5478](https://youtrack.jetbrains.com/issue/AIR-5478))
+- Can't stop a task — agent does nothing and stop button does not work ([AIR-5715](https://youtrack.jetbrains.com/issue/AIR-5715))
+- Claude is not aware of skills in `.agents/skills` ([AIR-6141](https://youtrack.jetbrains.com/issue/AIR-6141))
+- Crash (IndexOutOfBoundsException) when typing in "Add To Task Context" menu ([AIR-6121](https://youtrack.jetbrains.com/issue/AIR-6121))
+- Claude Fable incorrectly showed 200K context window instead of 1M ([AIR-6065](https://youtrack.jetbrains.com/issue/AIR-6065))
+- Codex was asking for permissions in full access mode ([AIR-6010](https://youtrack.jetbrains.com/issue/AIR-6010))
+- Junie "Full Access" mode not working ([AIR-5380](https://youtrack.jetbrains.com/issue/AIR-5380))
+- MCP call panel not horizontally scrollable ([AIR-5849](https://youtrack.jetbrains.com/issue/AIR-5849))
+- Unable to log in using JetBrains account ([AIR-5465](https://youtrack.jetbrains.com/issue/AIR-5465))
+- [Windows] Drag and Drop not supported ([AIR-5138](https://youtrack.jetbrains.com/issue/AIR-5138))
+- Fixed git status normalization worker ([AIR-5709](https://youtrack.jetbrains.com/issue/AIR-5709))
+- Text search searched across all tasks instead of the current one ([AIR-5716](https://youtrack.jetbrains.com/issue/AIR-5716))
+- File mentions were provided by all tasks instead of the current one ([AIR-5721](https://youtrack.jetbrains.com/issue/AIR-5721))
+- Commands, skills and subagents were provided from all tasks ([AIR-5723](https://youtrack.jetbrains.com/issue/AIR-5723))
+- Wrong file root shown in the "New Task" screen ([AIR-5724](https://youtrack.jetbrains.com/issue/AIR-5724))
+- Diff and Changes tools now support multi-repo scenarios ([AIR-5725](https://youtrack.jetbrains.com/issue/AIR-5725))
+- Repo selector in History tool showed repos from all tasks ([AIR-5726](https://youtrack.jetbrains.com/issue/AIR-5726))
+- Git-related actions now work with the current task's repository only ([AIR-5727](https://youtrack.jetbrains.com/issue/AIR-5727))
+- Git header showed all repos and could display wrong current branch ([AIR-5728](https://youtrack.jetbrains.com/issue/AIR-5728))
+- Chat mentions showed branches/commits from all tasks ([AIR-5729](https://youtrack.jetbrains.com/issue/AIR-5729))
+- Agent requirements check now scoped to the current task only ([AIR-5730](https://youtrack.jetbrains.com/issue/AIR-5730))
+- Changes and Diff tools showed files from all tasks ([AIR-5731](https://youtrack.jetbrains.com/issue/AIR-5731))
+- AI Docs were saved to the wrong project root when created ([AIR-5750](https://youtrack.jetbrains.com/issue/AIR-5750))
+- Local history restore picked the wrong repository in multi-root workspaces ([AIR-5741](https://youtrack.jetbrains.com/issue/AIR-5741))
+- MCP settings showed servers from all tasks ([AIR-5718](https://youtrack.jetbrains.com/issue/AIR-5718))
+- Settings showed all workspace roots for all tasks ([AIR-5719](https://youtrack.jetbrains.com/issue/AIR-5719))
+- [Windows] Can't run custom acp agent — `%1 is not a valid Win32 application` ([AIR-5759](https://youtrack.jetbrains.com/issue/AIR-5759))
+- Alignment of messages is broken in chat ([AIR-5791](https://youtrack.jetbrains.com/issue/AIR-5791))
+- Table UI and scroll behavior in chat output ([AIR-5045](https://youtrack.jetbrains.com/issue/AIR-5045))
+- Air can't open chat and tasks panel on Windows ([AIR-5761](https://youtrack.jetbrains.com/issue/AIR-5761))
+- Chat banners did not span the full panel width ([AIR-5530](https://youtrack.jetbrains.com/issue/AIR-5530))
+
+---
+
+## Sprint 262.43 — June 2026
+
+### Features (2)
+
+- Fast Mode support for Claude Opus 4.6 via API Billing ([AIR-4630](https://youtrack.jetbrains.com/issue/AIR-4630))
+- Empty drafts are automatically removed ([AIR-4083](https://youtrack.jetbrains.com/issue/AIR-4083))
+
+### Improvements (2)
+
+- [Windows] Air icon alignment in main toolbar ([AIR-5608](https://youtrack.jetbrains.com/issue/AIR-5608))
+- [Windows] Duplicate progress spinner during Apply Locally ([AIR-5609](https://youtrack.jetbrains.com/issue/AIR-5609))
+
+### Fixes (17)
+
+- Tasks and changes not loading after 262.34 update — show-stopper ([AIR-5640](https://youtrack.jetbrains.com/issue/AIR-5640))
+- Air fails to start on certain configurations ([AIR-5645](https://youtrack.jetbrains.com/issue/AIR-5645))
+- Chat messages invisible until task is stopped ([AIR-5583](https://youtrack.jetbrains.com/issue/AIR-5583))
+- MCP servers list appears empty when servers are available ([AIR-5561](https://youtrack.jetbrains.com/issue/AIR-5561))
+- Excessive warnings for unknown permission modes ([AIR-5661](https://youtrack.jetbrains.com/issue/AIR-5661))
+- Table rendering and scroll in Chat output ([AIR-5045](https://youtrack.jetbrains.com/issue/AIR-5045))
+- Junie approval view shows no content ([AIR-4794](https://youtrack.jetbrains.com/issue/AIR-4794))
+- Thinking level switcher missing from UI ([AIR-5606](https://youtrack.jetbrains.com/issue/AIR-5606))
+- Uncommitted changes lost on Implement in Docker agent ([AIR-5538](https://youtrack.jetbrains.com/issue/AIR-5538))
+- Uncommitted changes lost on Implement in Worktree agent ([AIR-5484](https://youtrack.jetbrains.com/issue/AIR-5484))
+- Commits list not shown after Worktree plan implementation ([AIR-5240](https://youtrack.jetbrains.com/issue/AIR-5240))
+- Can't open files linked in agent markdown plans ([AIR-5449](https://youtrack.jetbrains.com/issue/AIR-5449))
+- Commit message input missing in Diff view ([AIR-5101](https://youtrack.jetbrains.com/issue/AIR-5101))
+- Edit and Revert buttons disappear on Diff view resize ([AIR-5319](https://youtrack.jetbrains.com/issue/AIR-5319))
+- Chat banners not spanning full panel width ([AIR-5530](https://youtrack.jetbrains.com/issue/AIR-5530))
+- [Windows] Copy does not work ([AIR-5558](https://youtrack.jetbrains.com/issue/AIR-5558))
+- Tooltip flicker on hover ([AIR-5008](https://youtrack.jetbrains.com/issue/AIR-5008))
